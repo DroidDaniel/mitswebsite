@@ -6,7 +6,6 @@ export default class Infoblock extends Component {
     constructor(props){
         super(props)
         this.state = {
-            device:props.device.edges,
             mydevice:props.device.edges,
         }
    }
@@ -16,7 +15,7 @@ export default class Infoblock extends Component {
             <section className="info_stripe">
               
                
-                   {this.state.device.map(({node}) => {
+                   {this.state.mydevice.map(({node}) => {
                     return(
                         <div key={node.id} className="conatiner">
                         <div className="row">
