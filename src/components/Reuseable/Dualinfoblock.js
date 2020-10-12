@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Img from 'gatsby-image'
-
+//test
 
 export default class Dualinfoblock extends Component {
     constructor(props){
