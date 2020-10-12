@@ -33,7 +33,7 @@ const IndexPage = ({data}) => (
     <Workforce workforce={data.workforce}/>
     <ActionBox action={data.action}/>
     <Heading heading={data.heading}/>
-    {/* <Infoblock device={data.device}/> */}
+    <Infoblock device={data.device}/>
     <Portal portal={data.portal}/>
     <Dualinfoblock technology={data.technology} techlist={data.techlist}/>
     {/*
